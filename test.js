@@ -39,3 +39,5 @@ preview('hello2', 'world2');
 preview('hello3', 'world3');
 
 preview('hello4', 'world4');
+
+preview('last foo', foo);
