@@ -32,6 +32,8 @@ var bar = {
 
 preview('bar', 'x = ' + x++, bar);
 
+preview('test array', ['one', 'two', 'three']);
+
 preview('hello1', 'world1');
 
 preview('hello2', 'world2');
