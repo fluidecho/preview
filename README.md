@@ -2,6 +2,8 @@
 
 Console logging, inspecting and debugging tool.  
 
+Instead of having console.log and util.inspect all over your code during development, use preview.
+
 ## Installation
 
 From your terminal, requires [node.js](http://nodejs.org/).
