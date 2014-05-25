@@ -31,6 +31,7 @@ To run preview, use the --preview argument:
 ```
 node myapp.js --preview
 ```
+![](http://i.imgur.com/YGz38Qd.png)
 
 ## License
 
