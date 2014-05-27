@@ -8,5 +8,5 @@ var foo = {bar: 8211, hello: 'world', list: [1,2,3]};   // some object to inspec
 
 preview('foo');
 preview('foo object', foo);
-preview('app2', 'foo again', foo);
-preview('foo foo from app1');
+preview('app2', 'foo.bar: ' + foo.bar);
+preview('foo foo from app1 again');

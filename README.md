@@ -2,7 +2,7 @@
 
 Console logging, inspecting and debugging tool.  
 
-Instead of having console.log and util.inspect all over your code during development, use preview.
+Instead of having console.log and util.inspect all over your code during development, use preview, can then turn printing on or off using --preview argument.
 
 ## Installation
 
@@ -14,8 +14,8 @@ npm install preview
 
 ## Module
 ```
-require('preview')(<namespace>);
-preview(<namespace>, <text>, <object>);
+require('preview')(<namespace>, {options});
+preview(<namespace>, <text>, {object});
 ```
 
 ## Example
@@ -27,14 +27,21 @@ var foo = {bar: 8211, hello: 'world', list: [1,2,3]};   // some object to inspec
 
 preview('foo');
 preview('foo object', foo);
-preview('app2', 'foo again', foo);
-preview('foo foo from app1');
+preview('app2', 'foo.bar: ' + foo.bar);
+preview('foo foo from app1 again');
 ```
 To run preview, use the --preview argument:
 ```
 node example.js --preview
 ```
-![](http://i.imgur.com/83Eo3Yk.png)
+![](http://i.imgur.com/CBuMtOC.png)
+
+## Options
+```js
+{ 
+	inverse: true		// inverse the background color. 
+}
+```
 
 ## License
 
