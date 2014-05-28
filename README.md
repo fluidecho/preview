@@ -2,7 +2,7 @@
 
 Console logging, inspecting and debugging tool.  
 
-Instead of having console.log and util.inspect all over your code during development, use preview, can then turn printing on or off using --preview argument.
+Instead of having console.log and util.inspect all over your code during development, use preview and can then turn printing on or off using _--preview_ argument.
 
 ## Installation
 
@@ -15,8 +15,9 @@ npm install preview
 ## Module
 ```
 require('preview')(<namespace>, {options});
-preview(<namespace>, <text>, {object});
+preview(<namespace>, <text>, <object>);
 ```
+Objects supported: __{}, [], 1, Buffer, Date, Boolean__
 
 ## Example
 
@@ -39,7 +40,7 @@ node example.js --preview
 ## Options
 ```js
 { 
-	inverse: true		// inverse the background color. 
+  inverse: true   // inverse the background color. 
 }
 ```
 

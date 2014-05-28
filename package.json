@@ -1,7 +1,7 @@
 {
   "name": "preview",
   "description": "Console logging, inspecting and debugging tool.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "index.js",
   "homepage": "https://github.com/kurunt/preview",
   "author": "Mark W. B. Ashcroft <mark@kurunt.com> (http://kurunt.com)",
