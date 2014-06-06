@@ -17,7 +17,7 @@ npm install preview
 require('preview')(<namespace>, {options});
 preview(<namespace>, <text>, <object>);
 ```
-Objects supported: __{}, [], 1, Buffer, Date, Boolean__
+Objects supported: __{}, [], Number, Buffer, Date, Boolean__
 
 ## Example
 
@@ -31,7 +31,7 @@ preview('foo object', foo);
 preview('app2', 'foo.bar: ' + foo.bar);
 preview('foo foo from app1 again');
 ```
-To run preview, use the --preview argument:
+To run preview, use the _--preview_ argument:
 ```
 node example.js --preview
 ```
