@@ -37,6 +37,15 @@ node example.js --preview
 ```
 ![](http://i.imgur.com/CBuMtOC.png)
 
+### Namespaces
+
+Can print just a specific namespace or a list of namespaces.
+
+```
+node example.js --preview=app1
+node example.js --preview="app1, app2"
+```
+
 ## Options
 ```js
 { 
