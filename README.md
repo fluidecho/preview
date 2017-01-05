@@ -1,5 +1,8 @@
 # Preview
 
+[![build status][travis-image]][travis-url]
+[travis-image]: https://api.travis-ci.org/fluidecho/preview.png
+
 Console logging, inspecting and debugging tool.  
 
 Instead of having console.log and util.inspect all over your code during development, use preview and can then turn printing on or off using _--preview_ argument.
@@ -48,12 +51,11 @@ node example.js --preview="app1, app2"
 
 ## Options
 ```js
-{ 
-  inverse: true   // inverse the background color. 
+{
+  inverse: true   // inverse the background color.
 }
 ```
 
 ## License
 
 Choose either: [MIT](http://opensource.org/licenses/MIT) or [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0).
-
